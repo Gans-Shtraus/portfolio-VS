@@ -1,0 +1,104 @@
+.footer {
+    grid-area: "f";
+    background-color: rgba(129, 129, 129, 30%);
+    border-style: solid;
+}
+
+.expertise {
+    font-size: 20px;
+    padding-left: 30px;
+
+}
+
+.cherta {
+    font-size: 0px;
+    background-color: rgba(236, 166, 16, 0.945);
+    height: 5px;
+    width: 20px;
+    margin-top: 2px;
+
+}
+
+.skills {
+    padding-left: 30px;
+    padding-top: 10px;
+
+}
+
+.design div{
+    display: block;
+    border-style: solid;
+    width: 50px;
+    height: 1px;
+    padding: 2px;
+    background-color: aqua;
+    
+}
+.lifecoding div{
+    display: block;
+    border-style: solid;
+    width: 75px;
+    height: 1px;
+    padding: 2px;
+    background-color: aqua;
+}
+.communication div {
+    display: block;
+    border-style: solid;
+    width: 120px;
+    height: 1px;
+    padding: 2px;
+    background-color: aqua;
+}
+
+
+.contactsInfo {
+    padding-left: 50px;
+    padding-top: 30px;
+
+}
+
+.phone::before {
+    content: '';
+    text-align: center;
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(236, 166, 16, 0.945);
+    border: 1px solid black;
+    float: left;
+    margin-right: 2px;
+    margin-top: 5px;
+
+}
+
+.email::before {
+    content: '';
+    text-align: center;
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(236, 166, 16, 0.945);
+    border: 1px solid black;
+    float: left;
+    margin-right: 2px;
+    margin-top: 5px;
+
+}
+
+.area::before {
+    content: '';
+    text-align: center;
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(236, 166, 16, 0.945);
+    border: 1px solid black;
+    float: left;
+    margin-right: 2px;
+    margin-top: 5px;
+    
+}
+.phone {
+    font-style:unset;
+}

@@ -1,0 +1,25 @@
+.header {
+  grid-area: "h";
+  background-color: rgb(0, 0, 0);
+  border-style: solid;
+}
+
+.img {
+  width: 300px;
+  height: 250px;
+}
+
+.profession h1 {
+  letter-spacing: .2rem;
+  font-size: 40px;
+  font-weight: normal;
+  cursor: pointer;
+  text-shadow: 0 0 15px #999;
+  color: transparent;
+  transition: all .5s;
+  text-align: center;
+}
+
+h1:hover {
+  text-shadow: 0 0 0 #333;
+}

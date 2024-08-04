@@ -1,0 +1,16 @@
+
+.main{
+  margin: 0%;
+  display: grid;
+ grid-template-columns: 300px auto;
+ grid-template-rows: auto;
+  grid-template-areas: 
+  "h i "
+  "h i "
+  "f i"
+  ;
+  
+background-image: url('https://img.freepik.com/free-photo/dried-leaves-gray-blank-background_53876-102451.jpg?w=996&t=st=1722709233~exp=1722709833~hmac=3cb8556b8af4c5d7e14863cdd74b9e5bd92c8875140c8eb02b182bcaaa027950');
+ background-repeat: no-repeat;
+ background-size: cover;
+}

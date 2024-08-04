@@ -1,0 +1,58 @@
+.info {
+  grid-area: "i";
+  
+  border-style: solid;
+  text-align: center;
+}
+
+.profession {
+  background-color: aqua;
+
+}
+
+.work {
+font-size: 25px;
+letter-spacing: .2rem;
+
+animation-duration: 5s;
+animation-name: slidein;
+
+
+}
+
+
+
+.reference{
+  font-size: 25px;
+  letter-spacing: .2rem;
+
+  animation-duration: 7s;
+animation-name: slidein;
+}
+
+
+
+.nameUser {
+  
+  font-size: 30px;
+}
+
+h1 span {
+  font-style: italic;
+
+}
+
+.nameUser h1{
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+@keyframes slidein{
+  from{
+    margin-left: 100%;
+    width: 300%;
+  }
+  to{
+    margin-left: 0%;
+    width: 100%;
+  }
+}
